@@ -1,0 +1,146 @@
+Creado por https://www.toptal.com/developers/gitignore/api/node
+- Editar en https://www.toptal.com/developers/gitignore?templates=node
+
+node_modules
+
+Nodo
+- Registros
+troncos
+*.log
+nppm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+- Informes de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+Datos de la hora de hueso
+pids
+*.pid
+*.seed
+*.pid.lock
+
+Directorio para libs instrumentados generados por jscoverage/JSCover
+lib-cov
+
+Directorio de cobertura utilizado por herramientas como istanbul
+cobertura
+*.lcov
+
+Cobertura de prueba nyc
+.nyc-output
+
+- Almacenamiento intermedio Grunt (https://gruntjs.com/creating-plugins.storing-task-files)
+.grunt
+
+Dirección de la dependencia de Bower (https://bower.io/)
+componentes de bower.
+
+- configuración de nodo-vaf
+.lock-wscript
+
+- Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construcción/Lentación
+
+Dirección de Dependencia
+node-modules/
+jspm-packages/
+
+Directorio de dependencia de Snowpack (https://snowpack.dev/)
+web.módulos/
+
+Caché de escritura de tipo TipoScript
+*.tsbuildinfo
+
+Directorio opcional de caché npm
+.npm
+
+Cartel opcional eslint
+.eslintcache
+
+- Cache de inclinación de estilo opcional
+.stylelintcache
+
+- Cartel de microcompra
+.rpt2-cache/
+.rts2-cache-cjs/
+.rts2-cache-es/
+.rts2-cache-umd/
+
+Historia de REPL opcional
+.node.repl-history
+
+Salida de 'npm pack'
+*.tgz
+
+Archivo de integridad de ierro
+.yarn-integridad
+
+Archivos de la variable de entorno de dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+- la caché de paquetería (https://parceljs.org/)
+.cache
+.parcel-cache
+
+Next.js construir salida
+.next
+Fuera
+
+Nuxt.js construir / generar salida
+.nuxt
+despojo
+
+Archivos Gatsby
+.cache/
+Comentar en la línea pública si su proyecto utiliza Gatsby y no Next.js
+https://nextjs.org/blog/next-9-1-public-directory-support
+- público
+
+Vuepress build salida de construcción
+.vuepress/dista
+
+Vuepress v2.x temp y caché directorio
+.temp.
+
+Caché Docusaurus y archivos generados
+.docusaurus
+
+Los directorios sin servicio
+.serverless/
+
+- Chimelo FuseBox
+.fusebox/
+
+Archivos locales DynamoDB
+.dynamodb/
+
+Archivo portuario TernJS
+. pop-puerto
+
+Almacenes Versiones VSCode utilizadas para probar extensiones de VSCode
+.vscode-test
+
+- hilados v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/instalall-state.gz
+.pnp.*
+
+* Nodo Patch *
+Directorios de Webpack sin servicio
+.webpack/
+
+- Cache de inclinación de estilo opcional
+
+Construir SvelteKit / generar salida
+.svelte-kit
+
+Fin de https://www.toptal.com/developers/gitignore/api/node
