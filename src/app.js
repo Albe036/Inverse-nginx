@@ -1,8 +1,8 @@
 import express from 'express';
 import morgan from 'morgan';
-import user_routes from './router/user.router.js';
-import player_routes from './router/player.router.js';
-process.loadEnvFile();
+import user_routes from './router/user.routes.js';
+import player_routes from './router/player.routes.js';
+//process.loadEnvFile();
 
 const app = express();
 
