@@ -3,18 +3,18 @@ version: '3.8'
 services:
   app:
     build: 
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "3000-3010:3000"
+      - "3000:3000"
     volumes:
       - type: volume
         target: '/usr/src/app/node_modules'
       - type: bind
-        source: ./src
+        source: ./backend/src
         target: '/usr/src/app/src'
     env_file:
-      - ./env/.env
+      - ./backend/env/.env
     depends_on:
       - mongodb
   mongodb: 
@@ -24,7 +24,7 @@ services:
     ports:
       - "27017:27017"
     env_file:
-      - ./env/mongo.env
+      - ./backend/env/mongo.env
 volumes:
   db_mongo:
     
